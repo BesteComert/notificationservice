@@ -1,0 +1,13 @@
+spring:
+  kafka:
+    topic:
+      product-price-change-notification: PRODUCT-PRICE-CHANGE-NOTIFICATION
+      product-stock-change-notification: PRODUCT-STOCK-CHANGE-NOTIFICATION
+#    consumer:
+#      bootstarp-servers: localhost:9092
+#      group-id: "favorigroupId"
+#      auto-offset-reset: earliest
+#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+server:
+  port : 9094

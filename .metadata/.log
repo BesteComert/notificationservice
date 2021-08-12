@@ -1,0 +1,278 @@
+!SESSION 2021-07-24 17:33:37.354 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-07-24 17:33:49.697
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-24 17:33:49.697
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@28269c65,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4c9d833,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-24 17:33:53.853
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Onur'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2021-07-24 17:34:48.663
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-07-24 22:11:31.384 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2021-07-24 22:12:03.058
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-07-24 22:12:03.058
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2021-07-24 22:12:03.737
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2021-07-24 22:12:03.774
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.jface 2 0 2021-07-24 22:12:04.247
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-24 22:12:04.247
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@20040c6e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@cbea0df,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-24 22:12:07.878
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Onur'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY Activator 1 0 2021-07-24 22:13:00.204
+!MESSAGE Has main method computation for project 'notification-service'
+
+!ENTRY Activator 1 0 2021-07-24 22:13:00.906
+!MESSAGE Has main method computation for project 'notification-service'
+
+!ENTRY Activator 1 0 2021-07-24 22:13:00.966
+!MESSAGE Has main method computation for project 'notification-service'
+
+!ENTRY Activator 1 0 2021-07-24 22:13:01.868
+!MESSAGE Has main method computation for project 'notification-service'
+
+!ENTRY Activator 1 0 2021-07-24 22:13:02.618
+!MESSAGE Has main method computation for project 'notification-service'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:13:02.675
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:13:02.676
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@4b6094a1[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:13:02.679
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:13:02.704
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:13:04.483
+!MESSAGE Boot LS startup time from start to initialized: 1794ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:13:04.557
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LydXCHiIisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:13:04.564
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:13:04.566
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:13:04.566
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:13:04.566
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:13:04.566
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LydXCHiI => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:13:04.571
+!MESSAGE classpath=120 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:13:04.575
+!MESSAGE buffering callback sts4.classpath.LydXCHiI notification-service false 120
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:13:04.575
+!MESSAGE executing callback sts4.classpath.LydXCHiI 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:13:04.833
+!MESSAGE executing callback sts4.classpath.LydXCHiI SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-07-24 22:14:12.459
+!MESSAGE Has main method computation for project 'notification-service'
+
+!ENTRY Activator 1 0 2021-07-24 22:14:14.228
+!MESSAGE Has main method computation for project 'notification-service'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:15:38.696
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LydXCHiI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:15:38.697
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.LydXCHiI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:15:38.697
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:15:38.698
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LydXCHiI => OK
+
+!ENTRY org.eclipse.ui 2 2 2021-07-24 22:15:39.551
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-07-24 22:15:52.860 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=tr_TR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-07-24 22:16:04.737
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-24 22:16:04.737
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1cc878e6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@247877f3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:16:10.661
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:16:10.661
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@78298dce[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:16:10.663
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:16:10.699
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2021-07-24 22:16:12.946
+!MESSAGE Has main method computation for project 'notification-service'
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-24 22:16:13.024
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Onur'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:16:14.761
+!MESSAGE Boot LS startup time from start to initialized: 4083ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:16:14.926
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZUIHEeVkisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:16:14.934
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:16:14.939
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:16:14.940
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:16:14.940
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:16:14.941
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZUIHEeVk => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:16:14.955
+!MESSAGE classpath=120 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:16:14.960
+!MESSAGE buffering callback sts4.classpath.ZUIHEeVk notification-service false 120
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:16:14.961
+!MESSAGE executing callback sts4.classpath.ZUIHEeVk 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:16:15.454
+!MESSAGE executing callback sts4.classpath.ZUIHEeVk SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-07-24 22:16:19.666
+!MESSAGE Has main method computation for project 'notification-service'
+
+!ENTRY Activator 1 0 2021-07-24 22:16:21.353
+!MESSAGE Has main method computation for project 'notification-service'
+
+!ENTRY Activator 1 0 2021-07-24 22:16:22.178
+!MESSAGE Has main method computation for project 'notification-service'
+
+!ENTRY Activator 1 0 2021-07-24 22:16:48.699
+!MESSAGE Has main method computation for project 'notification-service'
+
+!ENTRY Activator 1 0 2021-07-24 22:16:49.281
+!MESSAGE Has main method computation for project 'notification-service'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:16:52.754
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZUIHEeVk
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:16:52.755
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ZUIHEeVk
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:16:52.757
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-24 22:16:52.758
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZUIHEeVk => OK
+
+!ENTRY org.eclipse.ui 2 2 2021-07-24 22:17:05.020
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)

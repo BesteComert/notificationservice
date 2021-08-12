@@ -1,0 +1,44 @@
+package com.buggerspace.notificationservice;
+
+import java.time.LocalDateTime;
+
+import com.buggerspace.notificationservice.service.UserNotificationService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.data.mongo.MongoDataAutoConfiguration;
+import org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration;
+
+import com.buggerspace.notificationservice.entity.Notification;
+import com.buggerspace.notificationservice.entity.UserNotification;
+import com.buggerspace.notificationservice.kafka.KafkaConsumer;
+import com.buggerspace.notificationservice.repository.UserNotificationRepository;
+
+@SpringBootApplication//(exclude = {DataSourceAutoConfiguration.class })
+@EnableAutoConfiguration(exclude = {MongoAutoConfiguration.class, MongoDataAutoConfiguration.class})
+public class NotificationServiceApplication implements CommandLineRunner {
+
+	public static void main(String[] args) {
+		SpringApplication.run(NotificationServiceApplication.class, args);
+		KafkaConsumer kafkaConsumer = new KafkaConsumer();	
+		kafkaConsumer.getNotification("1", "12" , 100.00, 89.99);
+	}
+	
+	@Autowired
+	private UserNotificationRepository repo;
+	@Autowired
+	private UserNotificationService userNotificationService;
+
+	@Override
+	public void run(String... args) throws Exception { // 1. Delete Previous records
+		UserNotification userNotification1 = new UserNotification("2", "test@hotmail.com", false, true );
+	
+		userNotification1.setNotifications(new Notification("11", 77.99, 45.99, LocalDateTime.now()));
+		userNotification1.setNotifications(new Notification("12", 100.00, 89.99, LocalDateTime.now()));
+		userNotification1.setNotifications(new Notification("13", 34.99, 8.99, LocalDateTime.now()));
+		userNotificationService.create(userNotification1);
+	}
+
+}
